@@ -1,0 +1,19 @@
+.sky {
+  background: url("img/sky.png");
+  width: 100vw;
+  height: 100vh;
+  position: relative;
+}
+
+
+.daytime {
+  background: url("img/daytime.png");
+  height: 360px;
+  width: 500%;
+  position: absolute;
+}
+
+.car img {
+  width: 200px;
+  position: absolute;
+}
