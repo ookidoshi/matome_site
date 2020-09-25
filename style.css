@@ -1,6 +1,14 @@
-body {
+/* body {
 margin: 0px;
 overflow: hidden;
+  
+}
+
+
+header {
+  width: 100%;
+  height: 150px;
+  background: #FAFAFA;
 
 }
 
@@ -54,4 +62,4 @@ overflow: hidden;
 
 .bouncing {
   animation: bouncing 1s linear infinite;
-}
+} */
