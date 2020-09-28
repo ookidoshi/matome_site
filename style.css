@@ -78,6 +78,47 @@ body {
   width: 960px;
   margin: 0 auto;
 }
+
+
+
+
+
+
+
+
+
+/* アニメーションテスト */
+
+#anime_test{
+  height: 100px;
+  width: 100px;
+  background-color: #F44336;
+  position: relative;
+  left: 0;
+  transition: 2.5s;
+}
+#anime_test.active {
+  background-color: #2196F3;
+  left: calc(100% - 100px);
+}
+
+.anime_test-btn {
+  margin-top:  10px;
+  display:  inline-block;
+  padding:  5px 10px;
+  border: solid 1px;
+  cursor:  pointer;
+}
+
+
+
+
+
+
+
+
+
+
 .wrapper ul {
    display: flex;
    list-style: none;
@@ -96,26 +137,27 @@ body {
 }
 header {
    border-bottom: solid 1px #333333;
-   background: #023750E6;
+   background: #3b5998;
    width: 100%;
    min-width: 960px;
    margin: auto;
 }
 
-.header_top {
-  background-color:#023750E6;
+/* .header_top {
   display: flex;
  
+} */
+
+.logo {
+  display: flex;
 }
-
-
 
 
 li:first-child {
    border-left:none;
 }
 .content {
- background-color: #f5f5dd;
+ background-color: #3b5998;
  /* #023750E6 */
  /*width: 960px;*/
  padding-bottom: 20px;
