@@ -262,6 +262,10 @@ article {
   font-weight: bold;
   color: #B8860B;
 }
+.portfolio_text {
+  padding-right: 40px;
+  line-height: 1.5em
+}
 .topics_discription {
    display:block;
 }
