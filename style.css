@@ -174,7 +174,7 @@ li:first-child {
 
 .by_dish {
    background: #FFFFFF;
-   width: 195px;
+   width: 250px;
 }
 .by_dish a {
    display: block;
@@ -257,6 +257,11 @@ article {
    font-weight: bold;
    color: #B8860B;
 }
+
+.portfolio_link {
+  font-weight: bold;
+  color: #B8860B;
+}
 .topics_discription {
    display:block;
 }
@@ -267,13 +272,13 @@ background: #FFFFFF;
 
 }
 footer {
-   background-color:#FFFFFF;
+   background-color:#3b5998;
    width: 100%;
    min-width: 960px;
    margin: auto;
    text-align: center;
    font-size: 12px;
-   border-top: solid 1px #CCCCCC;
+   border-top: solid 1px #333333;
    /*width: 960px;ブロック要素は何も書かなくても１００％*/
    padding-bottom: 20px;
 }
