@@ -52,9 +52,7 @@
   <div class="anime_test-btn" onclick="clickTest();">
     ボタン
   </div>
-
-
-
+  <input id='test-button' type='button' value='Test Button' onMouseOver="changeColor()" onMouseOut="revertColor()" />
 
 
 
@@ -62,11 +60,16 @@
     <div class="wrapper">
       <a href="https://codecamp.jp/"><img src="img/shin.png" alt="ロゴ" width="80" height="80"></a>
       <ul>
-        <li><a href="">自己紹介</a></li>
-        <li><a href="">制作物</a></li>
-        <li><a href="https://twitter.com/jinseigame30">Twitter</a></li>
-        <li><a href="https://qiita.com/TOMARU4400">Qiita</a></li>
-        <li><a href="">問い合わせ</a></li>
+        <li><a href="https://twitter.com/jinseigame30" id='hover' onMouseOver="changeColor()"
+            onMouseOut="revertColor()">自己紹介</a></li>
+        <li><a href="https://twitter.com/jinseigame30" id='hover2' onMouseOver="changeColor()"
+            onMouseOut="revertColor()">制作物</a></li>
+        <li><a href="https://twitter.com/jinseigame30" id='hover' onMouseOver="changeColor()"
+            onMouseOut="revertColor()">Twitter</a></li>
+        <li><a href="https://qiita.com/TOMARU4400" id='hover' onMouseOver="changeColor()"
+            onMouseOut="revertColor()">Qiita</a></li>
+        <li><a href="https://qiita.com/TOMARU4400" id='hover' onMouseOver="changeColor()"
+            onMouseOut="revertColor()">問い合わせ</a></li>
       </ul>
       <!-- <p>大城戸慎也のポートフォリオサイト</p> -->
     </div>
@@ -84,7 +87,7 @@
           <ul>
             <li><a href="https://mysterious-escarpment-29370.herokuapp.com/" class="portfolio_link">CTY</a>
               <img src="img/c.png" alt="starhire" width="120" height="80">
-              <p class="portfolio_text">画像や記事投稿アプリです。いいねやコメントができます。</p>
+              <p class="portfolio_text">記事投稿アプリです。画像付きのテキストを投稿できます。いいね、コメント機能も実装しています。</p>
               </a>
             </li>
 

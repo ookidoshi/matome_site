@@ -10,6 +10,7 @@
 // })
 
 
+
 function clickTest() {
   target = document.getElementById("anime_test");
   if (target.className == null || target.className == "") {
@@ -19,5 +20,19 @@ function clickTest() {
   }
 }
 
+function changeColor() {
+  document.getElementById('hover').style.backgroundColor = '#4689FF';
+}
+
+function revertColor() {
+  document.getElementById('hover').style.backgroundColor = null;
+}
 
 
+function changeColor() {
+  document.getElementById('hover2').style.backgroundColor = '#4689FF';
+}
+
+function revertColor() {
+  document.getElementById('hover2').style.backgroundColor = null;
+}

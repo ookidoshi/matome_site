@@ -233,7 +233,6 @@ article {
  
 }
 
-
 .contents_text div {
  /*margin-left: 15px;*/
  text-indent: 1em;
@@ -255,12 +254,12 @@ article {
 }
 .sub_title {
    font-weight: bold;
-   color: #B8860B;
+   color: #664433;
 }
 
 .portfolio_link {
   font-weight: bold;
-  color: #B8860B;
+  color: #664433;
 }
 .portfolio_text {
   padding-right: 40px;
