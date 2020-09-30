@@ -88,27 +88,24 @@ body {
 
 
 /* アニメーションテスト */
-
-#anime_test{
-  height: 100px;
-  width: 100px;
-  background-color: #F44336;
-  position: relative;
-  left: 0;
-  transition: 2.5s;
+i.fab{
+  margin: 5px 30px;
+  font-size: 36px;
+  color: #555;
 }
-#anime_test.active {
-  background-color: #2196F3;
-  left: calc(100% - 100px);
+p{
+  text-align: left;
+  font-size: 18px;
+  margin: 10px;
+  margin-left: 30px;
 }
 
-.anime_test-btn {
-  margin-top:  10px;
-  display:  inline-block;
-  padding:  5px 10px;
-  border: solid 1px;
-  cursor:  pointer;
+
+/* When attr() is fully supported: */
+p[hovercolor]:hover{
+  color: attr(hovercolor)
 }
+/* , and JS file will not required! See README.md*/
 
 
 
@@ -289,6 +286,9 @@ footer {
 .footer_box {
    padding-left: 160px;
 }
+.under_footer {
+  background-color: #FFFFFF;
+}
 
 p {
    font-size: 14px;
@@ -342,4 +342,5 @@ img {
 }
 small {
    color: #C0C0C0;
+   padding-left: 160px;
 }

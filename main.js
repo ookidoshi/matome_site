@@ -20,19 +20,29 @@ function clickTest() {
   }
 }
 
-function changeColor() {
-  document.getElementById('hover').style.backgroundColor = '#4689FF';
-}
 
-function revertColor() {
-  document.getElementById('hover').style.backgroundColor = null;
-}
-
-
-function changeColor() {
-  document.getElementById('hover2').style.backgroundColor = '#4689FF';
-}
-
-function revertColor() {
-  document.getElementById('hover2').style.backgroundColor = null;
-}
+/*
+ * Copyright 2019 Asa
+ * Released under the MIT license
+ * See https://github.com/a01sa01to/Hover_colorChange/blob/master/LICENSE
+ *
+ */
+(() => {
+  hoverColorChange = {
+    "txtColor": true,
+    "attr": "hovercolor",
+    "init": () => {
+      document.querySelectorAll(`[${hoverColorChange.attr}]`).forEach(e => {
+        e.addEventListener('mouseover', () => {
+          if (hoverColorChange.txtColor) { e.style.color = e.getAttribute(hoverColorChange.attr); }
+          else { e.style.backgroundColor = e.getAttribute(hoverColorChange.attr); }
+        });
+        e.addEventListener('mouseout', () => {
+          if (hoverColorChange.txtColor) { e.style.color = ""; }
+          else { e.style.backgroundColor = ""; }
+        });
+      });
+    }
+  }
+  window.addEventListener('load', hoverColorChange.init);
+})();
