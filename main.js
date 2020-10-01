@@ -21,12 +21,7 @@ function clickTest() {
 }
 
 
-/*
- * Copyright 2019 Asa
- * Released under the MIT license
- * See https://github.com/a01sa01to/Hover_colorChange/blob/master/LICENSE
- *
- */
+
 (() => {
   hoverColorChange = {
     "txtColor": true,
