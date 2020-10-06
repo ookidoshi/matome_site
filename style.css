@@ -288,6 +288,7 @@ footer {
 }
 .under_footer {
   background-color: #FFFFFF;
+  display: flex;
 }
 
 p {
